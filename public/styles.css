@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+section.frontpage {
+  width: 28cm;
+  height: 19cm;
+  margin: 20px;
+}
+
+h3 ,h5 , p {
+ margin : 8px 0
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500
+}
+
+.headingdate {
+  text-align: right
+}
+
+.checklistsummary {
+  width: 100%;
+  border: 1px solid #9B9B9B;
+  border-collapse: collapse;
+}
+
+.summaryheader{
+  text-align: center;
+  background-color: #9B9B9B;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+
+}
+.summarydescont{
+  padding: 0;
+}
+.summarydesc{
+  width: 100%;
+  padding-top: 10px;
+  background-color: #E8E8E8;
+  /* border-collapse: collapse; */
+}
+
+.summtext{
+  margin: 5px;
+}
+
+ th{
+  text-align: left
+}
+
+.summarydesccol{
+  vertical-align: top;
+  padding-top: 10px
+}
+
+.datatable{
+  width: 28cm;
+  min-height: 21cm;
+  margin: 20px;
+  /* border: 1px solid red; */
+}
+.datatableHeader{
+  border: 1px solid #9B9B9B;
+  background-color: #9B9B9B;
+}
+.dataheader1{
+  padding : 10px;
+  text-align: left;
+}
+.dataheader2{
+  padding : 10px;
+  text-align: center;
+}
+
+.treecontainer{
+  border-collapse: collapse;
+  table-layout:fixed;
+}
+.treedata{
+  width: 75%;
+  padding: 10px 0;
+  padding-left: 10px;
+  font-size: 15px;
+  
+}
+
+.ref-description{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0;
+}
+
+.ref-deltail{
+  display:block;
+  margin: 10px 5px;
+  text-decoration: underline;
+  color: black;
+  
+}
+
+.des-Section {
+  font-weight: bold
+}
+.des-Header {
+  font-weight: 600;
+  font-size: 14px;
+}

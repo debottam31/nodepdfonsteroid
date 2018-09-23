@@ -1,0 +1,26 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Mead",
+  "license": "MIT",
+  "scripts": {
+    "build-react": "babel ./src/component --out-dir ./public  --presets env,react --plugins transform-object-rest-spread",
+    "prepHtml": "node ./public/genarateHtml.js",
+    "start": "npm run build-react && npm run prepHtml && node src/server"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "puppeteer": "^1.8.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  }
+}
