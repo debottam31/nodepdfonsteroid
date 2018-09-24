@@ -1,13 +1,10 @@
 import React from 'react';
 import {renderToStaticMarkup,} from 'react-dom/server';
-// import fs from 'fs';
-//import css from './styles.css'
 import Report from './Report'
-import jsonData from '../data/checklist.json';
 
 
-export function generatetemplate(templatedata = jsonData) {
-  const body = renderToStaticMarkup(<Report {...jsonData} />)
+export function generatetemplate(templatedata) {
+  const body = renderToStaticMarkup(<Report {...templatedata} />)
   const template = `
   <!DOCTYPE html>
   <html>
