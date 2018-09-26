@@ -11,8 +11,8 @@ body {
 
 section.frontpage {
   width: 28cm;
-  height: 19cm;
-  margin: 20px;
+  height: 18.85cm;
+  margin: 0 30px ;
 }
 
 h3 ,h5 , p {
@@ -42,6 +42,10 @@ p {
   text-decoration: none;
 
 }
+.summarysubheader1{
+  width: 50%;
+  padding-left: 10px;
+}
 .summarydescont{
   padding: 0;
 }
@@ -65,10 +69,10 @@ p {
   padding-top: 10px
 }
 
-.datatable{
-  width: 28cm;
+section.datatable{
+  width: 28.1cm;
   min-height: 21cm;
-  margin: 20px;
+  margin: 0 30px;
   /* border: 1px solid red; */
 }
 .datatableHeader{
@@ -84,6 +88,9 @@ p {
   text-align: center;
 }
 
+.tablewrapper{
+  border: 1px solid #9B9B9B;
+}
 .treecontainer{
   border-collapse: collapse;
   table-layout:fixed;
@@ -116,4 +123,10 @@ p {
 .des-Header {
   font-weight: 600;
   font-size: 14px;
+}
+
+@page { margin: 2cm } /* All margins set to 2cm */
+
+@page :first {
+   margin : 0    /* Top margin on first page 10cm */
 }

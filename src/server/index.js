@@ -1,47 +1,42 @@
 const express = require('express');
+const addRequestId =  require('express-request-id');
 const bodyParser = require('body-parser');
+const { writeHtml, createPdf, createHtmlPdf } = require('../utils/util');
+const data = require('../../data/checklist.json');
 
-const puppeteer  = require('puppeteer');
-const path = require('path');
-const fs = require('fs-extra');
-const {generatetemplate} = require('../../public/app');
-console.log(generatetemplate);
-const createPdf = async () => {
+const app = express();
+app.use(addRequestId());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
-    const pathToHtml = path.join(process.cwd(), 'public', 'index.html');
-    const options = {
-        path: 'exmple.pdf',
-        format: 'A4',
-        printBackground: true,
-        landscape: true
-    }
+
+app.get('/pdf', async (req, res) => {
     try {
-        // const html = generatetemplate(); //await fs.readFile(pathToHtml, 'utf8');
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-        // await page.goto('https://www.google.com', { waitUntil: 'networkidle0', timeout: 300000});
-        await page.goto(pathToHtml);
-        // await page.setContent(html);
-        await page.emulateMedia('print');
-        await page.pdf(options);
-        // // await page.evaluate(async () => {
-        // // });
-        await browser.close();
-    } catch (e) {
-        throw e
+        //const htmlFilePath = await writeHtml(req.id, data); // write file  as index.html
+        // const stream = await createPdf(htmlFilePath);
+        const stream = await createHtmlPdf();
+        // res.setHeader('Content-type', 'application/pdf');
+        // res.setHeader('Content-Disposition', 'attachment; filename=report.pdf');
+        // res.setHeader('Content-Length', stream.length);
+        // res.end(stream);
+        // console.log('Response send for success');
+        // await createHtmlPdf()
+        console.log('Response send for success');
+        res.status(200).send('request processed')
+    } catch(e) {
+        res.status(500).send(e.message);
     }
-}
-
-
-createPdf().then().catch(e => { console.log(e)
-// process.exit();
 });
 
-// const app = express();
+process.on('uncaughtException', (err) => {
+    console.log('error', 'Unhandled Exception', err);
+  });
+  
+  process.on('uncaughtRejection', (err) => {
+    console.log('error', 'Unhandled Rejection', err);
+  });
 
-// app.use(bodyParser.urlencoded());
-// app.use(bodyParser.json());
 
-// app.get('/pdf', (req, res) => {
-// res.send('<h1>hrhrrhrrhrhrh</h1>')
-// })
+app.listen(8080, () => {
+    console.log('Server started on 8080');
+});

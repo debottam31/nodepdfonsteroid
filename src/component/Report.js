@@ -23,7 +23,7 @@ const  Report = (props)=>{
                 <table className='summarydesc'>
                 <tbody>
                   <tr>
-                    <th style={{width :'50%', paddingLeft : '10px'}}>Industry(ies)</th>
+                    <th className='summarysubheader1'>Industry(ies)</th>
                     <th>Events & Transactions</th>
                     <th>New Standards Adopted</th>
                   </tr>
@@ -47,26 +47,28 @@ const  Report = (props)=>{
         </section>
         <section className='datatable'>
           <table className='treecontainer'>
-            <thead className='datatableHeader'>
+            {/* <thead className='datatableHeader'>
               <tr>
                 <th className='dataheader1'>Line Item(s)</th>
                 <th></th>
                 <th className='dataheader2'>Response</th>
               </tr>
-            </thead>
+            </thead> */}
             <tbody>
-            { props.tree && props.tree.map((row, i)=><TableRow   key ={i}row = {row}/>)}
+            { props.tree && props.tree.map((row, i)=><TableRow key ={i}row = {row}/>)}
             </tbody>            
           </table>
 
         </section>
+      
       </div>
+      
     );
 }
 
 
 const  TableRow = (props)=>(
-  <tr style={{border: '1px solid #9B9B9B'}}>
+  <tr className='tablewrapper'>
     <td className='treedata' style={{paddingLeft : `${props.row.sequence*20 +10}px`}}>
       <div className={`treedes des-${props.row.type}`}>
         {props.row.description}

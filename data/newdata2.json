@@ -1,0 +1,456 @@
+{
+  "checklistId": "38cda196-3d39-4d2e-a58f-15b0348fb98d",
+  "isPwcEmployee": true,
+  "checklist": {
+    "auditorSharingEnabled": false,
+    "checklistId": "38cda196-3d39-4d2e-a58f-15b0348fb98d",
+    "entityType": "For profit",
+    "reportPeriod": "2018-09-18",
+    "checklistWorkflowStatus": "APPROVED",
+    "percentComplete": 100,
+    "clientId": "f88919f1-4773-4358-971d-d8b11cc77a1f",
+    "clientName": "Metlife Insurance K.k.",
+    "clientLicType": "",
+    "percentAssesed": 0,
+    "typeOfEBP": null,
+    "reportType": "QUARTERLY",
+    "checklistName": "Metlife Insurance K.k. 2018 Q3- TEST A- RBS- 9/19/18(3)",
+    "clientSharingEnabled": false,
+    "initiationType": "AUDITOR_INITIATED",
+    "checklistAuditorWorkflowStatus": "ASSESSMENT_IN_PROGRESS",
+    "locked": true,
+    "rollForwarded": false,
+    "secList": null,
+    "eventList": null,
+    "supplementalList": null,
+    "earlyAdoptionList": [
+      {
+        "displayName": "rdPBE",
+        "id": null,
+        "metadata": "rdPBE"
+      },
+      {
+        "displayName": "Revenue from Contracts with Customers",
+        "id": "asu201409",
+        "metadata": "asu201409"
+      },
+      {
+        "displayName": "Improving the Presentation of Net Periodic Pension Cost and Net Periodic Postretirement Benefit Cost",
+        "id": "asu201707",
+        "metadata": "asu201707"
+      },
+      {
+        "displayName": "Restricted Cash",
+        "id": "asu201618",
+        "metadata": "asu201618"
+      },
+      {
+        "displayName": "Classification of Certain Cash Receipts and Cash Payments",
+        "id": "asu201615",
+        "metadata": "asu201615"
+      },
+      {
+        "displayName": "Recognition of Breakage for Certain Prepaid Stored-Value Products",
+        "id": "asu201604",
+        "metadata": "asu201604"
+      },
+      {
+        "displayName": "Recognition and Measurement of Financial Assets and Financial Liabilities",
+        "id": "asu201601",
+        "metadata": "asu201601"
+      },
+      {
+        "displayName": "Intra-Entity Transfers of Assets Other Than Inventory",
+        "id": "asu201616",
+        "metadata": "asu201616"
+      },
+      {
+        "displayName": "Service Concession Arrangements: Determining the Customer of the Operation Services",
+        "id": "asu201710",
+        "metadata": "asu201710"
+      },
+      {
+        "displayName": "Clarifying the Scope of Asset Derecognition Guidance and Accounting for Partial Sales of Nonfinancial Assets",
+        "id": "asu201705",
+        "metadata": "asu201705"
+      }
+    ],
+    "industryList": null,
+    "FSList": null,
+    "fsList": null
+  },
+  "tree": [
+    {
+      "auditorResponse": null,
+      "description": "General Instructions to Form 10-Q",
+      "type": "Section",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 0,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 1,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd"
+      ],
+      "_id": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "referenceJson": [],
+      "isExpanded": false,
+      "childrenArray": [
+        "8ae81a6b-7c5c-4154-b131-0cac93086ffc"
+      ],
+      "children": [],
+      "button_disable": false,
+      "parentId": "",
+      "id": "856e3630-51db-47f8-83c2-e86aa1c3fecd"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note: The information required by Parts I and II of Form 10-Q may be incorporated by reference from the quarterly report to shareholders provided the information in the report to shareholders meets the requirements governing the information to be included in Form 10-Q (e.g., Regulations S-X and S-K).  Information incorporated by reference must be filed as an exhibit to the Form 10-Q report within the required filing deadlines.",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": false,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 2,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+        "8ae81a6b-7c5c-4154-b131-0cac93086ffc"
+      ],
+      "_id": "8ae81a6b-7c5c-4154-b131-0cac93086ffc",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "id": "8ae81a6b-7c5c-4154-b131-0cac93086ffc"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note: General Instruction D to Form 10-Q and Rule 12b-23 of the 1934 Act provide detailed instructions about the procedures to be followed when incorporating information by reference.",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 3,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+        "850e8811-b31c-428d-a969-fe31a9ddf56f"
+      ],
+      "_id": "850e8811-b31c-428d-a969-fe31a9ddf56f",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "id": "850e8811-b31c-428d-a969-fe31a9ddf56f"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note:  The form and content of interim financial statements in quarterly reports to shareholders is governed only by the provisions of ASC 270-10-50-1 through 50-4 when such statements are not incorporated by reference into a Form 10-Q filing.",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 4,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+        "fdf44154-676f-4670-a73d-05945379900f"
+      ],
+      "_id": "fdf44154-676f-4670-a73d-05945379900f",
+      "referenceJson": null,
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "id": "fdf44154-676f-4670-a73d-05945379900f"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note: Quarterly reports to shareholders may be combined with the required information of Form 10-Q and filed with the SEC.  In such cases, see General Instruction E to Form 10-Q.",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 5,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+        "6e025079-f6b3-4533-a06d-12c7b04e8d57"
+      ],
+      "_id": "6e025079-f6b3-4533-a06d-12c7b04e8d57",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "id": "6e025079-f6b3-4533-a06d-12c7b04e8d57"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note: Under certain circumstances, registrants that are wholly-owned subsidiaries of companies reporting under the 1934 Act may omit certain information from Form 10-Q.  Details of the modifications permitted are contained in General Instruction H to Form 10-Q.",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 6,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+        "71cf4f31-d8c3-47d7-8971-16d5afbc9d59"
+      ],
+      "_id": "71cf4f31-d8c3-47d7-8971-16d5afbc9d59",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "id": "71cf4f31-d8c3-47d7-8971-16d5afbc9d59"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note: A parent and its subsidiary are allowed to file combined periodic reports in cases where (1) the parent owns substantially all of the stock of the subsidiary, (2) there are no more than nominal differences between the financial statements of the parent and the subsidiary, and (3) the non-financial disclosures of the parent and subsidiary are substantially similar, if the combined Form 10-Q includes certain other specified disclosures. These disclosures include, among other items, separate reviewed interim financial statements for each entity (in this context the requirement is intended to apply to the primary financial statements), separate financial statement notes for areas which are different between the parent and the subsidiary (e.g., debt or capital structure), separate reports on disclosure controls and procedures for each entity, and separate CEO/CFO Certifications for each entity.  With respect to other disclosure items required by Form 10-Q, any material differences between the parent and the subsidiary would be discussed separately.",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 7,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+        "f8e07e76-c7e4-4708-9adb-8122887fe673"
+      ],
+      "_id": "f8e07e76-c7e4-4708-9adb-8122887fe673",
+      "referenceJson": [
+        {
+          "referenceId": "FRM 1370.1",
+          "referenceUrl": "http://www.inform.pwc.com/inform2/show?action=informContent&id=1344184307201168#secFRM1370_1"
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "856e3630-51db-47f8-83c2-e86aa1c3fecd",
+      "id": "f8e07e76-c7e4-4708-9adb-8122887fe673"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Cover Page/Due Date",
+      "type": "Section",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 0,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 8,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "65e6b0e4-a368-4bc1-b761-781ec368cdd4"
+      ],
+      "_id": "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+      "referenceJson": [],
+      "isExpanded": false,
+      "childrenArray": [
+        "913e90d6-cf06-487f-9ab9-e60e181cd3dd"
+      ],
+      "children": [],
+      "button_disable": false,
+      "parentId": "",
+      "id": "65e6b0e4-a368-4bc1-b761-781ec368cdd4"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Non-accelerated Filers: Form 10-Q must be filed within 45 days after the end of each of the first three fiscal quarters of each year for registrants who do not meet the definition of an accelerated filer. No report is required for the fourth quarter.",
+      "type": "Question",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": false,
+      "response": "NOT_APPLICABLE",
+      "pyConfirmed": null,
+      "lineItemID": 9,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": true,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+        "913e90d6-cf06-487f-9ab9-e60e181cd3dd"
+      ],
+      "_id": "913e90d6-cf06-487f-9ab9-e60e181cd3dd",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+      "id": "913e90d6-cf06-487f-9ab9-e60e181cd3dd"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Accelerated and Large Accelerated Filers:  Companies that have a public float of at least $75 million (but less than $700 million) or $700 million respectively, that have been subject to the 1934 Exchange Act for at least 12 calendar months and that previously filed at least one annual report must file Form 10-Q within 40 days after the end of each of the first three fiscal quarters.",
+      "type": "Question",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": false,
+      "response": "NOT_APPLICABLE",
+      "pyConfirmed": null,
+      "lineItemID": 10,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": true,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+        "3ed182a1-bd1a-46d5-877d-e059e6314251"
+      ],
+      "_id": "3ed182a1-bd1a-46d5-877d-e059e6314251",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+      "id": "3ed182a1-bd1a-46d5-877d-e059e6314251"
+    },
+    {
+      "auditorResponse": null,
+      "description": "Note: A first-time registrant is required to file its first Form 10-Q by the later of (i) 45 days after the effective date of the initial registration statement, or (ii) the date on which the Form 10-Q would have otherwise been due (i.e., if the issuer had been a reporting company as of its last fiscal quarter).",
+      "type": "Text",
+      "comments": null,
+      "auditorComments": null,
+      "sequence": 2,
+      "responseModified": null,
+      "response": null,
+      "pyConfirmed": null,
+      "lineItemID": 11,
+      "isDeleted": false,
+      "priorResponse": null,
+      "isDisclosureRequirement": false,
+      "notify": false,
+      "flag": false,
+      "auditorFlag": false,
+      "idChain": [
+        "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+        "6c33f291-3439-41bd-a629-da55aec305ea"
+      ],
+      "_id": "6c33f291-3439-41bd-a629-da55aec305ea",
+      "referenceJson": [
+        {
+          "referenceId": "Form 10-Q",
+          "referenceUrl": ""
+        }
+      ],
+      "isExpanded": false,
+      "childrenArray": [],
+      "children": [],
+      "button_disable": false,
+      "parentId": "65e6b0e4-a368-4bc1-b761-781ec368cdd4",
+      "id": "6c33f291-3439-41bd-a629-da55aec305ea"
+    }
+	]
+}

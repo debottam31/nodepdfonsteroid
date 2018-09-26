@@ -81,7 +81,7 @@ var Report = function Report(props) {
                     null,
                     _react2.default.createElement(
                       'th',
-                      { style: { width: '50%', paddingLeft: '10px' } },
+                      { className: 'summarysubheader1' },
                       'Industry(ies)'
                     ),
                     _react2.default.createElement(
@@ -149,25 +149,6 @@ var Report = function Report(props) {
         'table',
         { className: 'treecontainer' },
         _react2.default.createElement(
-          'thead',
-          { className: 'datatableHeader' },
-          _react2.default.createElement(
-            'tr',
-            null,
-            _react2.default.createElement(
-              'th',
-              { className: 'dataheader1' },
-              'Line Item(s)'
-            ),
-            _react2.default.createElement('th', null),
-            _react2.default.createElement(
-              'th',
-              { className: 'dataheader2' },
-              'Response'
-            )
-          )
-        ),
-        _react2.default.createElement(
           'tbody',
           null,
           props.tree && props.tree.map(function (row, i) {
@@ -182,7 +163,7 @@ var Report = function Report(props) {
 var TableRow = function TableRow(props) {
   return _react2.default.createElement(
     'tr',
-    { style: { border: '1px solid #9B9B9B' } },
+    { className: 'tablewrapper' },
     _react2.default.createElement(
       'td',
       { className: 'treedata', style: { paddingLeft: props.row.sequence * 20 + 10 + 'px' } },
